@@ -97,7 +97,7 @@ Finally, you should write out each IP, ASN, and AS Description to a text file. T
 ```
 writeFile = open("asnoutput.txt", "a")
 outputData = [ip, results['asn'], results['asn_description']]
-writeFile.write(str(myList) + "\n")
+writeFile.write(str(outputData) + "\n")
 ```
 
 You should print out a divider line every time you move onto the next IP in your ```iplist.txt``` file, so that you have a single output file of all your traceroute ASN information, split into blocks with newlines. If you forget to do this, it will be very hard to identify where one route begins and and another route ends.
