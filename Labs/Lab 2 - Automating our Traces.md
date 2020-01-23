@@ -68,6 +68,7 @@ for ip in route:
 We will need to declare each IP, currently a string, as a proper network resource to the ```ipwhois``` module:
 
 ```
+import ipwhois
 ip = '8.8.8.8'
 myIp = ipwhois.net.Net(ip)
 ```
