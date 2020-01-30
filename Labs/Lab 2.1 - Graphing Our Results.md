@@ -1,4 +1,4 @@
-# COSC 416: Topics in Networking
+# COSC 417: Topics in Networking
 # Winter 2020 - Lab 2.1
 
 In this lab, we'll take the data we generated in Lab 2 and graph it, to make it easier to visualize how the autonomous systems are linked together.
