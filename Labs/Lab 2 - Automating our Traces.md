@@ -1,4 +1,4 @@
-# COSC 416: Topics in Networking
+# COSC 417: Topics in Networking
 # Winter 2020 - Lab 2
 
 In this lab, we'll be using the same techniques of performing a traceroute, and then an ASN lookup, but we'll be automating it so that we can perform lookups quite a bit faster.
