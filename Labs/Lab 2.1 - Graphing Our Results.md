@@ -46,7 +46,7 @@ Once your output is formatted as above, you're ready to begin parsing your data 
 <a name="graph"></a>
 ## Building our Graph (5 marks)
 
-For our graph, we'll be using a Python module called ```networkx```. Networkx, as the name suggests, is designed to produce network graphs. It may already be installed on your system (it comes with many scientific distributions of Python), but if not you can install it using ```pip install networkx```.
+For our graph, we'll be using a Python module called ```networkx```. Networkx, as the name suggests, is designed to produce network graphs. It may already be installed on your system (it comes with many scientific distributions of Python), but if not you can install it using ```pip install networkx```. You will also need to install the Matplotlib library, if you don't already have it: ```pip install matplotlib```.
 
 To begin, we'll import the module and then create our base graph object, *G*:
 
