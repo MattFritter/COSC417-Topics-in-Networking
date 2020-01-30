@@ -1,4 +1,4 @@
-# COSC 416: Topics in Networking
+# COSC 417: Topics in Networking
 # Winter 2020 - Lab 1
 
 In this lab, we'll be using the ```tracert``` utility to trace the path between our computer and an external target. Then, we'll use this information to try to determine which autonomous systems our traffic is travelling through.
