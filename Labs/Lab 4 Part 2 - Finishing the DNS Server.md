@@ -9,7 +9,7 @@ For this lab, we'll finish up the DNS server software that we began working on i
 - [Submission](#sub)
 
 <a name="modify"></a>
-## Modifying the Original Message (2 marks)
+## Modifying the Original Message
 
 You may want to pull up the Topic 9 notes to reference the format of the DNS request and response. The first thing that we'll want to do is dump out the original message data as a ```bytearray``` type. This will make it easier to modify individual bytes within the message, and append new data onto the end of the message as needed.
 
@@ -40,7 +40,7 @@ MESSAGE[3] = 0x00
 The last change that you'll need to make is to update the answer count header field to a value of 1 (reflection one answer in our response). **Use the two previous examples to help work out how to change the answer count.**
 
 <a name="append"></a>
-## Appending our Answer (4 marks)
+## Appending our Answer
 
 Once we've edited our message, we can begin appending our new response answer to the message. First, we'll want to append a label to the message that points to our previous label (hostname encoded as mentioned in the notes).
 
