@@ -90,7 +90,7 @@ You can submit requests to the DNS request server at the same IP (set as the ```
 
 At the bottom, you can see the global table of scores. Everyone's max response length, amplification ratio, total number of requests and responses, and number of resolvers tried is shown.
 
-** If you ever get locked out of your dashboard, you can get access again by using the same student number again. **
+**If you ever get locked out of your dashboard, you can get access again by using the same student number again.**
 
 Prizes will be awarded to the students with the three highest amplification rates, as well as the student with the largest single response size.
 
@@ -99,14 +99,14 @@ Prizes will be awarded to the students with the three highest amplification rate
 
 You do not need to submit anything for this lab. You will be marked based on following these criteria:
 
-*You must submit at least 10 response/requests to the server
-*You must achieve a response length of at least 200 bytes (without using ```baidu.com```, as we did that example in class)
-*You must try at least three different DNS resolvers
+* You must submit at least 10 response/requests to the server
+* You must achieve a response length of at least 200 bytes (without using ```baidu.com```, as we did that example in class)
+* You must try at least three different DNS resolvers
 
 Doing this will achieve you full marks. Additional bonus marks will be given for the following criteria:
 
-*Got an amplification ratio of at least 20
-*Tried at least 10 different DNS resolvers (they must be actual resolvers)
-*Produced a query with a length less than 25 and a response of at least 200 bytes.
+* Got an amplification ratio of at least 20
+* Tried at least 10 different DNS resolvers (they must be actual resolvers)
+* Produced a query with a length less than 25 and a response of at least 200 bytes.
 
 The challenge will be available until midnight, March 23rd. **Good Luck**.
