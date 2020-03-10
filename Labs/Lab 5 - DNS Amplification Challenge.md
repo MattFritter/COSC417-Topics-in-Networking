@@ -8,8 +8,7 @@ Instead, you'll aim the traffic at a central server which will keep track of you
 ## Table of Contents
 - [Using Scapy](#scapy)
 - [Submitting and Tracking Scores](#scores)
-- [Local Caching](#cache)
-- [Submission](#sub)
+- [Marking](#marking)
 
 <a name="scapy"></a>
 ## Using Scapy
